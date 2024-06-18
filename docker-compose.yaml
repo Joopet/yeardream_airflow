@@ -63,7 +63,7 @@ x-airflow-common:
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
     AIRFLOW__SMTP__SMTP_HOST: 'smtp.gmail.com' 
     AIRFLOW__SMTP__SMTP_USER: 'xjoxonx@gmail.com' 
-    AIRFLOW__SMTP__SMTP_PASSWORD: 'puyy qlsg swfz iqxk' 
+    AIRFLOW__SMTP__SMTP_PASSWORD: '##SMTP_PASSWORD##' 
     AIRFLOW__SMTP__SMTP_PORT: 587 
     AIRFLOW__SMTP__SMTP_MAIL_FROM: 'xjoxonx@gmail.com'
     # yamllint disable rule:line-length
