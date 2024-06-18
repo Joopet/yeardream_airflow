@@ -10,7 +10,7 @@ from airflow.operators.bash import BashOperator
     catchup=False,
     tags=["homework"],
     )
-def generate_dag():
+def dags_bash_operator_decorator():
     bash_t1 = BashOperator(
         task_id="bash_t1",
         bash_command="echo whoami",
@@ -21,4 +21,4 @@ def generate_dag():
         ) 
     bash_t1 >> bash_t2
 
-generate_dag()
+dags_bash_operator_decorator()
