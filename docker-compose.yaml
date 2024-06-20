@@ -140,6 +140,8 @@ services:
       retries: 50
       start_period: 30s
     restart: always
+    ports:
+      - 5432:5432
     networks:
       network_custom:
         ipv4_address: 172.28.0.5
